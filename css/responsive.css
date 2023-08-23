@@ -1,0 +1,115 @@
+@media (max-width: 1200px) {
+    .question-slider{
+        width: auto;
+    }
+}
+
+@media (max-width: 991px) {
+    header .row > div:not(:last-child) {
+        border-right: none;
+    }
+    header{
+        padding-bottom: 20px;
+    }
+    #social-media{
+        border: none;
+    }
+    .footer-info > div{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    nav{
+        position: fixed;
+        background: transparent;
+        top: 0;
+        z-index: 9;
+    }
+    .navbar-toggler{
+        background: rgba(9, 232, 84, 0.3);
+    }
+    .navbar-collapse{
+        background: rgb(225, 227, 232);
+        text-align: center;
+        padding: 10px;
+    }
+    nav ul li:not(:last-child){
+        border: none;
+    }
+    .navbar-toggler-icon{
+        margin-left: 10px;
+    }
+    .navbar-light .navbar-nav a.nav-link{
+        color: rgba(0,0,0,.5);
+        }
+    .service-example img{
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 620px){
+    .social .row > div{
+        min-width: 300px;
+        max-width: 340px;
+        margin: 0 auto;
+    }
+    .social-media__text{
+        margin-left: 0;
+    }
+    #social-media{
+        padding: 10px 0;
+        max-width: 310px;
+    }
+}
+
+@media (max-width: 575px){
+    section.questions{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 575px) and (min-width: 480px){
+    header .logo, header .activity-block{
+        width: 50%;
+    }
+    header .info{
+        order: 3;
+    }
+}
+
+@media (max-width: 480px) {
+    header .row > div {
+        margin: 0 auto;
+    }
+
+    header div.activity-block{
+        margin-top: 20px;
+        min-width: 310px;
+    }
+
+    header .info{
+        display: block!important;
+    }
+    header .info .info-text, header .info button{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    header .info .info-text{
+        min-width: 216px;
+    }
+
+    header .info button{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 420px) {
+    .social input, .social button{
+        width: 90%;
+        margin: 10px auto;
+    }
+}

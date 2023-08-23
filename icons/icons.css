@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?fbenfs');
+  src:  url('fonts/icomoon.eot?fbenfs#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?fbenfs') format('truetype'),
+    url('fonts/icomoon.woff?fbenfs') format('woff'),
+    url('fonts/icomoon.svg?fbenfs#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Group1:before {
+  content: "\e904";
+}
+.icon-questions-circular-button:before {
+  content: "\e905";
+}
+.icon-phone-call1:before {
+  content: "\e906";
+}
+.icon-facebook:before {
+  content: "\e90f";
+  color: #3b5999;
+}
+.icon-vk:before {
+  content: "\e913";
+  color: #4b729f;
+}
+.icon-speech-bubble:before {
+  content: "\e900";
+}
+.icon-Group:before {
+  content: "\e901";
+}
+.icon-at:before {
+  content: "\e902";
+}
+.icon-phone-call:before {
+  content: "\e903";
+}
+.icon-icons-5:before {
+  content: "\e907";
+}
+.icon-icons-4:before {
+  content: "\e908";
+}
+.icon-icons-3:before {
+  content: "\e909";
+}
+.icon-icons-2:before {
+  content: "\e90a";
+}
+.icon-icons-1:before {
+  content: "\e90b";
+}
+.icon-arrow-point-to-right:before {
+  content: "\e90c";
+}
+.icon-icons:before {
+  content: "\e90d";
+}
+.icon-magnifying-glass:before {
+  content: "\e90e";
+}
+.icon-Shopping-Cart-Icon:before {
+  content: "\e910";
+}
+.icon-Heart-Icon:before {
+  content: "\e911";
+}
+.icon-pin:before {
+  content: "\e912";
+}
